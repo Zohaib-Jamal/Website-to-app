@@ -25,7 +25,7 @@ class _WebViewAppState extends State<WebViewApp> {
         child: Stack(
           children: [
             WebView(
-              initialUrl: "https://virtumart.site/",
+              initialUrl: "https://yoursite.com/", //replace with your site url
               javascriptMode: JavascriptMode.unrestricted,
               onPageFinished: (String url) {
                 setState(() {
